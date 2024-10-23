@@ -1,7 +1,6 @@
 package caffeinateme.steps;
 
 import caffeinateme.model.*;
-import io.cucumber.datatable.DataTable;
 import io.cucumber.java.DataTableType;
 import io.cucumber.java.ParameterType;
 import io.cucumber.java.en.And;
@@ -11,7 +10,6 @@ import io.cucumber.java.en.When;
 
 import java.util.List;
 import java.util.Map;
-import java.util.stream.Collectors;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
